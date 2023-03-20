@@ -11,7 +11,7 @@ function onFormSubmit(event) {
     const email = formElements.email.value;
     const password = formElements.password.value;
 
-    if (email.value === '' || password.value === '') {
+    if (email.value === "" || password.value === "") {
         alert("This form must be completed");
     } else {
         alert("This form has been submitted");
